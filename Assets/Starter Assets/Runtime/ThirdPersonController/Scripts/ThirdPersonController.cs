@@ -3,6 +3,7 @@
 using UnityEngine.InputSystem;
 #endif
 
+
 /* Note: animations are called via the controller for both the character and capsule using animator null checks
  */
 
@@ -14,6 +15,7 @@ namespace StarterAssets
 #endif
     public class ThirdPersonController : MonoBehaviour
     {
+        
         [Header("Player")]
         [Tooltip("Move speed of the character in m/s")]
         public float MoveSpeed = 2.0f;
