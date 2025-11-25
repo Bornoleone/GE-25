@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 83d00519c3b183d4da587e34b360cbfe
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212112
+  packageName: SmartPoint - Checkpoint and Spawning System
+  packageVersion: 1.0
+  assetPath: Assets/SmartPoint/Core/Prefabs/SpawnController.prefab
+  uploadId: 477073

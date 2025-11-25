@@ -12,6 +12,7 @@ namespace AA0000
         public Vector3 axis = Vector3.up;
         public float rotationSpeed = 1.0f;
         public Transform testTransform;
+        public bool isON = false;
 
 
         // Start is called before the first frame update
@@ -23,7 +24,23 @@ namespace AA0000
         // Update is called once per frame
         void Update()
         {
-            transform.RotateAround(rotationPoint,axis,rotationSpeed);
+            if(isON ==true)
+            {
+                transform.RotateAround(rotationPoint, axis, rotationSpeed);
+            }
+            else
+            {
+
+            }
+            
+        }
+        public void SwitchON()
+        {
+            isON = true;
+        }
+        public void SwitchOFF()
+        {
+            isON = false;
         }
     } 
 }

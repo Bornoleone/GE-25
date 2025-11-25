@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ead252a08810a164c92518141040bb66
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212112
+  packageName: SmartPoint - Checkpoint and Spawning System
+  packageVersion: 1.0
+  assetPath: Assets/SmartPoint/Examples/Scenes/PlayerOutOfBounds.unity
+  uploadId: 477073

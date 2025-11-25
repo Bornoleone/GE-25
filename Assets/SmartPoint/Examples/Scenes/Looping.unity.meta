@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2dc083c343bc4fc49a49e00ef202db3f
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212112
+  packageName: SmartPoint - Checkpoint and Spawning System
+  packageVersion: 1.0
+  assetPath: Assets/SmartPoint/Examples/Scenes/Looping.unity
+  uploadId: 477073

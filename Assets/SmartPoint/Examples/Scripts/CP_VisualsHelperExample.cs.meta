@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 9ffed2b79987ae04eb78c2d540b76a07
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212112
+  packageName: SmartPoint - Checkpoint and Spawning System
+  packageVersion: 1.0
+  assetPath: Assets/SmartPoint/Examples/Scripts/CP_VisualsHelperExample.cs
+  uploadId: 477073

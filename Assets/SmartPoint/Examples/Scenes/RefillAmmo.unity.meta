@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cce7a33c9283d6d4d8cb0c8ef3a3f342
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212112
+  packageName: SmartPoint - Checkpoint and Spawning System
+  packageVersion: 1.0
+  assetPath: Assets/SmartPoint/Examples/Scenes/RefillAmmo.unity
+  uploadId: 477073

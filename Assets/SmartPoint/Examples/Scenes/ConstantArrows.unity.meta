@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2d709d08fdfe9a14cabd54dbaa195904
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212112
+  packageName: SmartPoint - Checkpoint and Spawning System
+  packageVersion: 1.0
+  assetPath: Assets/SmartPoint/Examples/Scenes/ConstantArrows.unity
+  uploadId: 477073

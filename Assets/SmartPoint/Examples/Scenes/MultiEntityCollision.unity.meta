@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 70c676cf2e708834ea2462148aa660e5
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212112
+  packageName: SmartPoint - Checkpoint and Spawning System
+  packageVersion: 1.0
+  assetPath: Assets/SmartPoint/Examples/Scenes/MultiEntityCollision.unity
+  uploadId: 477073

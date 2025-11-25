@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8b1a1769ed1d84943bb50e80dc851eaa
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212112
+  packageName: SmartPoint - Checkpoint and Spawning System
+  packageVersion: 1.0
+  assetPath: Assets/SmartPoint/Examples/Scenes/SingletonProximity.unity
+  uploadId: 477073

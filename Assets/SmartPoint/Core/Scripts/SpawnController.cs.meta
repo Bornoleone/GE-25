@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2ee1c44cc4faf1a4a9d3955aa5cec7a7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212112
+  packageName: SmartPoint - Checkpoint and Spawning System
+  packageVersion: 1.0
+  assetPath: Assets/SmartPoint/Core/Scripts/SpawnController.cs
+  uploadId: 477073

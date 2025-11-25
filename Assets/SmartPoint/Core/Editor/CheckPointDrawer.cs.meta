@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2c6b8a10937a4d442bd4ff871a20e5bc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212112
+  packageName: SmartPoint - Checkpoint and Spawning System
+  packageVersion: 1.0
+  assetPath: Assets/SmartPoint/Core/Editor/CheckPointDrawer.cs
+  uploadId: 477073

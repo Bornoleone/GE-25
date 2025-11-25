@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 47210860b58d0004092d502544c33a22
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212112
+  packageName: SmartPoint - Checkpoint and Spawning System
+  packageVersion: 1.0
+  assetPath: Assets/SmartPoint/Core/Editor/CheckPointHandleEditor.cs
+  uploadId: 477073

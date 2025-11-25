@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 63623eff9f87e0a4192f794fb850c506
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212112
+  packageName: SmartPoint - Checkpoint and Spawning System
+  packageVersion: 1.0
+  assetPath: Assets/SmartPoint/Examples/Resources/CP_EnemyRed.prefab
+  uploadId: 477073

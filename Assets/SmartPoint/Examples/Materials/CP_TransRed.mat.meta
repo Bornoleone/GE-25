@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1959c6fa05316d443a058e4f519f9861
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 212112
+  packageName: SmartPoint - Checkpoint and Spawning System
+  packageVersion: 1.0
+  assetPath: Assets/SmartPoint/Examples/Materials/CP_TransRed.mat
+  uploadId: 477073
