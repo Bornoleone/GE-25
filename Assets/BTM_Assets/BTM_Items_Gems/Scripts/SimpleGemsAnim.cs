@@ -75,6 +75,7 @@ namespace Benjathemaker
 
                 transform.localScale = Vector3.Lerp(startScale, endScale, t);
             }
+
         }
 
         float EaseInOutQuad(float t)
@@ -82,34 +83,24 @@ namespace Benjathemaker
             return t < 0.5f ? 2 * t * t : 1 - Mathf.Pow(-2 * t + 2, 2) / 2;
         }
 
-        private void OnTriggerEnter(Collider other)
+        
+        
+
+
+        public void PlaySound()
         {
-            
-
-            if (other.CompareTag("Player"))
-            {
-                //Destroy the collectible
-
-                PlaySound();
-                Destroy(gameObject);
-                Instantiate(onCollectEffect, transform.position, transform.rotation);
-                
-            }
-
-
+            aSource.clip = soundClip;
+            aSource.Play();
+            Debug.Log("sound played");
         }
 
-
-        void PlaySound()
+        public void Collected()
         {
-            if (aSource != null && soundClip != null)
-            {
-
-                aSource.clip = soundClip;
-                aSource.Play();
-                Debug.Log("Sound Clip Played");
-
-            }
+            Destroy(gameObject);
+            Instantiate(onCollectEffect, transform.position, transform.rotation);
+            aSource.clip = soundClip;
+            aSource.Play();
+            Debug.Log("sound played");
         }
 
     }

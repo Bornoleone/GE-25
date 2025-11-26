@@ -12,7 +12,7 @@ namespace AA0000
 		public bool spawnEndlessly = false;
 		public float spawnRate = 0.1f;
 		public List<GameObject> spawnedObjects;
-		bool canWeSpawn = true;
+		public bool canWeSpawn;
 
 		private void Awake()
 		{
@@ -40,6 +40,16 @@ namespace AA0000
 			Vector3 spawnLocation = locationProvider.GetRandomPositionInRing();
 			spawnedObjects.Add(Instantiate(spanwnedObject, spawnLocation, Quaternion.identity));
 			canWeSpawn = !canWeSpawn;
+		}
+
+		public void CanSpawn()
+		{
+			canWeSpawn = true;
+		}
+
+		public void CantSpawn()
+		{
+			canWeSpawn = false;
 		}
 	}
 }

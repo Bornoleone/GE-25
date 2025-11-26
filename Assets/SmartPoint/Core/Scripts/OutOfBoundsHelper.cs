@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
+
 namespace SmartPoint
 {
     public class OutOfBoundsHelper : MonoBehaviour
