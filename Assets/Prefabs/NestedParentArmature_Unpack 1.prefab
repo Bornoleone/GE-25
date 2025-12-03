@@ -453,7 +453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a50af2ea4f667a4d8b79e83c3ce0d65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp-firstpass::DialogNodeBasedSystem.Demo.Scripts.TestDialogStarter
-  _dialogBehaviour: {fileID: 0}
+  _dialogBehaviour: {fileID: 3612131426568257060}
   _dialogGraph: {fileID: 11400000, guid: 69f30bb9acf5b4742968646ece9757d1, type: 2}
 --- !u!1 &1635747820964109085
 GameObject:
@@ -2665,6 +2665,7 @@ GameObject:
   - component: {fileID: 1112473315540689773}
   - component: {fileID: 4063734673928226626}
   - component: {fileID: 5293972245514422781}
+  - component: {fileID: 7894581701644173993}
   m_Layer: 8
   m_Name: PlayerArmature
   m_TagString: Player
@@ -2953,6 +2954,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp-firstpass::DialogNodeBasedSystem.Demo.Scripts.TestDialogStarter
   _dialogBehaviour: {fileID: 3612131426568257060}
   _dialogGraph: {fileID: 11400000, guid: 69f30bb9acf5b4742968646ece9757d1, type: 2}
+--- !u!114 &7894581701644173993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6605490723107231629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b72c123667f5cea41bdaae5a33ef9fb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Scene_Teleportation_Kit.Scripts.teleport.Teleportable
+  canTeleport: 1
 --- !u!1 &6630324832596153793
 GameObject:
   m_ObjectHideFlags: 0
@@ -3346,7 +3360,7 @@ Transform:
   m_GameObject: {fileID: 7434689466222278019}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.20000005, y: 0.44500005, z: -2.500431}
+  m_LocalPosition: {x: 0.20000127, y: 0.44500005, z: -4.000001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4130,7 +4144,7 @@ Transform:
   m_GameObject: {fileID: 8864733288629017338}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.20000005, y: 0.44500005, z: -2.500431}
+  m_LocalPosition: {x: 0.20000127, y: 0.44500005, z: -4.000001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

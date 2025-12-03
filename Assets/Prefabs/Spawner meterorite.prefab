@@ -62,7 +62,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8039448144679372581, guid: 847c2ab80b83ac04580f229821c6ac3d, type: 3}
       propertyPath: spawnEndlessly
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8039448144679372581, guid: 847c2ab80b83ac04580f229821c6ac3d, type: 3}
       propertyPath: amountOfSpawnedThings
