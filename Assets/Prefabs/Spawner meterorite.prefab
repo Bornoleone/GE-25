@@ -52,13 +52,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5764751962333410341, guid: 847c2ab80b83ac04580f229821c6ac3d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 5764751962333410341, guid: 847c2ab80b83ac04580f229821c6ac3d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 5764751962333410341, guid: 847c2ab80b83ac04580f229821c6ac3d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.68
+      objectReference: {fileID: 0}
     - target: {fileID: 7780971348848734196, guid: 847c2ab80b83ac04580f229821c6ac3d, type: 3}
       propertyPath: forceAmount
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8039448144679372581, guid: 847c2ab80b83ac04580f229821c6ac3d, type: 3}
       propertyPath: spawnRate
-      value: 1
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8039448144679372581, guid: 847c2ab80b83ac04580f229821c6ac3d, type: 3}
       propertyPath: spawnEndlessly
@@ -66,7 +78,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8039448144679372581, guid: 847c2ab80b83ac04580f229821c6ac3d, type: 3}
       propertyPath: amountOfSpawnedThings
-      value: 5
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

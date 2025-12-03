@@ -8,7 +8,7 @@ namespace AA0000
 	{
 		public RingAreaUsingCollider locationProvider;
 		public GameObject spanwnedObject;
-		public int amountOfSpawnedThings = 50;
+		public int amountOfSpawnedThings;
 		public bool spawnEndlessly = false;
 		public float spawnRate = 0.1f;
 		public List<GameObject> spawnedObjects;
