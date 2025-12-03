@@ -178,6 +178,8 @@ AudioMixerController:
   m_ExposedParameters:
   - guid: 76dd6ada92654467da2044ca5eb97484
     name: MasterVolume
+  - guid: 482ea26d712ab4d9ba8b083a4f6c53ee
+    name: MusicVolume
   - guid: 1ebf5022f0ad3419d817b47c572677e6
     name: SFXVolume
   - guid: e16b039dc30d34426aabc63b86e8164a
@@ -206,8 +208,8 @@ AudioMixerController:
     - 33c5ceddcc96e4cc8b21a1e40bf6380b
     - a213ad81ce5b0ba49af3d97fddde1ddb
     name: SFXview
-  m_CurrentViewIndex: 2
-  m_TargetSnapshot: {fileID: 24500006}
+  m_CurrentViewIndex: 0
+  m_TargetSnapshot: {fileID: -5704990194944390944}
 --- !u!243 &24300002
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
