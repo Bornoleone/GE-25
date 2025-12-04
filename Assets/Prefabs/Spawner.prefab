@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1775039881560265706}
   - component: {fileID: 8943185992279394855}
-  - component: {fileID: 8039448144679372581}
-  - component: {fileID: 4462954525879762390}
   - component: {fileID: 4207355986114699068}
   - component: {fileID: 7780971348848734196}
+  - component: {fileID: 8039448144679372581}
+  - component: {fileID: 4462954525879762390}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
@@ -59,6 +59,33 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 1.31
   m_Center: {x: 0, y: 0.42, z: 0}
+--- !u!114 &4207355986114699068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642542164897247205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b360cdfbeec9184194067cd66e8dc6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AA0000.RingAreaUsingCollider
+  innerRadiusPercentage: 0.546
+--- !u!114 &7780971348848734196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642542164897247205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 900215ae938f83945ad73016be8a235f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UpwardsForce
+  forceAmount: 1000
+  targetRigidbody: {fileID: 4462954525879762390}
 --- !u!114 &8039448144679372581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,33 +132,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4207355986114699068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 642542164897247205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b360cdfbeec9184194067cd66e8dc6f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AA0000.RingAreaUsingCollider
-  innerRadiusPercentage: 0.546
---- !u!114 &7780971348848734196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 642542164897247205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 900215ae938f83945ad73016be8a235f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::UpwardsForce
-  forceAmount: 1000
-  targetRigidbody: {fileID: 4462954525879762390}
 --- !u!1 &2945332121731453677
 GameObject:
   m_ObjectHideFlags: 0

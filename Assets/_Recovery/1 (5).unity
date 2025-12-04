@@ -2202,7 +2202,7 @@ MonoBehaviour:
   - '1: Smoothly reveal text from left to right'
   - '2: Supports multi-line text animations, allowing you to display longer sentences
     that seamlessly fade in across multiple lines for a dynamic and engaging effect.'
-  - ' '
+  - 
   fadeMode: 0
   fadeLastLine: 0
   delayBeforeFadeOut: 1
