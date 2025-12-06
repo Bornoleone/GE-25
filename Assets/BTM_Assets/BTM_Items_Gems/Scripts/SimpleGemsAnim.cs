@@ -6,8 +6,8 @@ namespace Benjathemaker
 {
     public class SimpleGemsAnim : MonoBehaviour
     {
-        public AudioClip soundClip;
-        private AudioSource aSource;
+        //public AudioClip soundClip;
+        //private AudioSource aSource;
         public GameObject onCollectEffect;
         public bool isRotating = false;
         public bool rotateX = false;
@@ -33,7 +33,7 @@ namespace Benjathemaker
 
         void Start()
         {
-            aSource = GetComponent<AudioSource>();
+            //aSource = GetComponent<AudioSource>();
             initialScale = transform.localScale;
             initialPosition = transform.position;
 
@@ -86,21 +86,13 @@ namespace Benjathemaker
         
         
 
-
-        public void PlaySound()
-        {
-            aSource.clip = soundClip;
-            aSource.Play();
-            Debug.Log("sound played");
-        }
-
+        
         public void Collected()
         {
-            Destroy(gameObject);
+            //instantiates VFX effect at GameObject's position and rotation values
             Instantiate(onCollectEffect, transform.position, transform.rotation);
-            aSource.clip = soundClip;
-            aSource.Play();
-            Debug.Log("sound played");
+            Debug.Log("collected");
+            
         }
 
     }
