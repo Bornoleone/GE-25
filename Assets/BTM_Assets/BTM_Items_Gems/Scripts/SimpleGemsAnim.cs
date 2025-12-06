@@ -1,13 +1,14 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Audio;
+using TMPro;
 
 namespace Benjathemaker
 {
     public class SimpleGemsAnim : MonoBehaviour
     {
-        //public AudioClip soundClip;
-        //private AudioSource aSource;
+        public int stars = 0;
+        public TextMeshProUGUI collectibleCountTextMesh;
         public GameObject onCollectEffect;
         public bool isRotating = false;
         public bool rotateX = false;
@@ -33,7 +34,7 @@ namespace Benjathemaker
 
         void Start()
         {
-            //aSource = GetComponent<AudioSource>();
+            UpdateCollectibleCount();
             initialScale = transform.localScale;
             initialPosition = transform.position;
 
@@ -95,6 +96,17 @@ namespace Benjathemaker
             
         }
 
+        public void UpdateCollectibleCount()
+        {
+            collectibleCountTextMesh.text = "" + stars;
+        }
+
+        public void AddCollectibleCount()
+        {
+            ++stars;
+            UpdateCollectibleCount();
+            Debug.Log("current star count"+stars);
+        }
     }
 }
 

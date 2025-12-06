@@ -138,7 +138,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &99834218
 Transform:
   m_ObjectHideFlags: 0
@@ -151,7 +151,8 @@ Transform:
   m_LocalPosition: {x: -581.15, y: 1.22, z: -507.92044}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1197812689}
   m_Father: {fileID: 1618930953}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &99834219
@@ -686,11 +687,11 @@ Transform:
   m_GameObject: {fileID: 1197812688}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -568.96, y: 3.43, z: -509.96}
+  m_LocalPosition: {x: 8.269775, y: -0.92444205, z: -0.14309692}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1803582441}
+  m_Father: {fileID: 99834218}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1253800904
 GameObject:
@@ -994,38 +995,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: 47365cc78e5cfad41badc534e3d2b7e1, type: 3}
---- !u!1 &1803582440
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1803582441}
-  m_Layer: 0
-  m_Name: ==Visual markers==
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1803582441
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1803582440}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 576.20807, y: -0.6043468, z: 490.20956}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1197812689}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2051475425
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1192,6 +1161,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 1481317466}
   - {fileID: 1253800905}
-  - {fileID: 1803582441}
   - {fileID: 1503943273}
   - {fileID: 1618930953}
