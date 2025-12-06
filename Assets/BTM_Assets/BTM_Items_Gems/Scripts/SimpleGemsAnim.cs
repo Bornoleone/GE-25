@@ -7,7 +7,7 @@ namespace Benjathemaker
     public class SimpleGemsAnim : MonoBehaviour
     {
         public AudioClip soundClip;
-        public AudioSource aSource;
+        private AudioSource aSource;
         public GameObject onCollectEffect;
         public bool isRotating = false;
         public bool rotateX = false;

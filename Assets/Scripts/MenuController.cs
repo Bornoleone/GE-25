@@ -20,14 +20,18 @@ public class MenuController : MonoBehaviour
         {
             //hasBeenPaused = true;
             Time.timeScale = 0.0f;
-			//menuParent.SetActive(true);
-		}
+            Cursor.lockState = CursorLockMode.None;//unlock cursor
+            Cursor.visible = true;//cursor visible
+            //menuParent.SetActive(true);
+        }
         else
         {
             //hasBeenPaused = false;
             Time.timeScale = 1.0f;
-			//menuParent.SetActive(false);
-		}
+            Cursor.lockState = CursorLockMode.Locked;//lock cursor
+            Cursor.visible = false;//cursor unvisible
+            //menuParent.SetActive(false);
+        }
         
 		menuParent.SetActive(!menuParent.activeSelf);
 	}
