@@ -7,8 +7,7 @@ namespace Benjathemaker
 {
     public class SimpleGemsAnim : MonoBehaviour
     {
-        public int stars = 0;
-        public TextMeshProUGUI collectibleCountTextMesh;
+        
         public GameObject onCollectEffect;
         public bool isRotating = false;
         public bool rotateX = false;
@@ -34,7 +33,7 @@ namespace Benjathemaker
 
         void Start()
         {
-            UpdateCollectibleCount();
+            
             initialScale = transform.localScale;
             initialPosition = transform.position;
 
@@ -96,17 +95,7 @@ namespace Benjathemaker
             
         }
 
-        public void UpdateCollectibleCount()
-        {
-            collectibleCountTextMesh.text = "" + stars;
-        }
-
-        public void AddCollectibleCount()
-        {
-            ++stars;
-            UpdateCollectibleCount();
-            Debug.Log("current star count"+stars);
-        }
+        
     }
 }
 

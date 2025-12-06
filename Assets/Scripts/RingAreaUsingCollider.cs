@@ -21,7 +21,7 @@ namespace AA0000
 		{
 			// Example usage
 			Vector3 randomPosition = GetRandomPositionInRing();
-			Debug.Log("Random Position in Ring: " + randomPosition);
+			//Debug.Log("Random Position in Ring: " + randomPosition);
 		}
 
 		// Method to get a random position inside the ring area
