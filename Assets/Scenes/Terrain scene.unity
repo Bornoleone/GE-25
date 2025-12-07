@@ -119,6 +119,138 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &22822234
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1493074120}
+    m_Modifications:
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.120000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.120000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 148.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.07999992
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 104.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.40114862
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.91601306
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 227.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443963999043469556, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_Name
+      value: Buffy Sugo Rigged ReadyforUnity@Shuffling (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+--- !u!4 &22822235 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+  m_PrefabInstance: {fileID: 22822234}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &69959222
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1493074120}
+    m_Modifications:
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 99.99999
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 83.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7666051
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6421189
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 79.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443963999043469556, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_Name
+      value: Buffy Sugo Rigged ReadyforUnity@Shuffling (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+--- !u!4 &69959223 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+  m_PrefabInstance: {fileID: 69959222}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &244365081
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -220,6 +352,130 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b8bf6b3dda335c4d971363656bfcb90, type: 3}
+--- !u!1001 &363450043
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1493074120}
+    m_Modifications:
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 145.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 79.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9622417
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.2721963
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 328.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443963999043469556, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_Name
+      value: Buffy Sugo Rigged ReadyforUnity@Shuffling (14)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+--- !u!4 &363450044 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+  m_PrefabInstance: {fileID: 363450043}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &387964524
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1493074120}
+    m_Modifications:
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 127.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.42999983
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 108.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.15901972
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9872754
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 161.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443963999043469556, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_Name
+      value: Buffy Sugo Rigged ReadyforUnity@Shuffling (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+--- !u!4 &387964525 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+  m_PrefabInstance: {fileID: 387964524}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &769055886
 GameObject:
   m_ObjectHideFlags: 0
@@ -349,6 +605,192 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &817675908
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1493074120}
+    m_Modifications:
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 136.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 73.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9999539
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.009599404
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 358.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443963999043469556, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_Name
+      value: Buffy Sugo Rigged ReadyforUnity@Shuffling (15)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+--- !u!4 &817675909 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+  m_PrefabInstance: {fileID: 817675908}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &928800912
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1493074120}
+    m_Modifications:
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 148.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.92700005
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 92.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.54946035
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.8355198
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 246.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443963999043469556, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_Name
+      value: Buffy Sugo Rigged ReadyforUnity@Shuffling (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+--- !u!4 &928800913 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+  m_PrefabInstance: {fileID: 928800912}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &973473193
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1493074120}
+    m_Modifications:
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 140.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 81.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9622417
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.2721963
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 328.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443963999043469556, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_Name
+      value: Buffy Sugo Rigged ReadyforUnity@Shuffling (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+--- !u!4 &973473194 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+  m_PrefabInstance: {fileID: 973473193}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &978929193
 GameObject:
   m_ObjectHideFlags: 0
@@ -569,6 +1011,245 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1493074119
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1493074120}
+  m_Layer: 0
+  m_Name: ==animated objects==
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1493074120
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493074119}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.24218, y: 4.53, z: 7.74004}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 928800913}
+  - {fileID: 973473194}
+  - {fileID: 363450044}
+  - {fileID: 1754429299}
+  - {fileID: 817675909}
+  - {fileID: 1582905738}
+  - {fileID: 22822235}
+  - {fileID: 1741751176}
+  - {fileID: 387964525}
+  - {fileID: 69959223}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1582905737
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1493074120}
+    m_Modifications:
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 121.219986
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 66.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9786886
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.20535019
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 23.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443963999043469556, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_Name
+      value: Buffy Sugo Rigged ReadyforUnity@Shuffling (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+--- !u!4 &1582905738 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+  m_PrefabInstance: {fileID: 1582905737}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1741751175
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1493074120}
+    m_Modifications:
+    - target: {fileID: 628374908464723871, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 16.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.120000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.120000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 121.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 79.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.91775465
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.3971479
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 46.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443963999043469556, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_Name
+      value: Buffy Sugo Rigged ReadyforUnity@Shuffling (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+--- !u!4 &1741751176 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+  m_PrefabInstance: {fileID: 1741751175}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1754429298
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1493074120}
+    m_Modifications:
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 145.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 84.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9622417
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.2721963
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 328.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4443963999043469556, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+      propertyPath: m_Name
+      value: Buffy Sugo Rigged ReadyforUnity@Shuffling (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+--- !u!4 &1754429299 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3956395895383923278, guid: e8e038fca3075ae4d9ca7df8cea68115, type: 3}
+  m_PrefabInstance: {fileID: 1754429298}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8874746218810413488
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -583,7 +1264,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6266393359528217328, guid: 0db1d520b21c5c7498ea7092c01405f4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.49
+      value: 7.559
       objectReference: {fileID: 0}
     - target: {fileID: 6266393359528217328, guid: 0db1d520b21c5c7498ea7092c01405f4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -635,3 +1316,4 @@ SceneRoots:
   - {fileID: 244365081}
   - {fileID: 979051612}
   - {fileID: 978929196}
+  - {fileID: 1493074120}
