@@ -7454,7 +7454,7 @@ MonoBehaviour:
   playerInTriggerArea: 0
   animatedTextReveal: {fileID: 466546159}
   lines:
-  - This is just a terrain scene nothing else to it
+  - This is a terrain scene nothing much to, just a vibe
   - Thank you for playing this prototype!
   - ' '
   fadeMode: 0
