@@ -9,14 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/UI scene.unity
     guid: 8ee3e1ec1d5e09c47ae8f72736e22378
   - enabled: 1
-    path: Assets/Scenes/LA.unity
-    guid: 6e7c549d4f545dc43b47f951c3b7829c
-  - enabled: 1
     path: Assets/Scenes/Main Scene.unity
     guid: be958336da95ce24a931606ff11367a7
-  - enabled: 1
-    path: Assets/Scenes/PropsForMainScene.unity
-    guid: cb4100060bb213144b8072bfdb14bd6e
   - enabled: 0
     path: Assets/Scenes/Terrain scene.unity
     guid: 1aa5cea34ad20314787658a85345ee25

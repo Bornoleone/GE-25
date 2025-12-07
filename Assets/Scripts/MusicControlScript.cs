@@ -24,7 +24,9 @@ namespace AudioTools
         private float m_TransitionIn;
         private float m_TransitionOut;
         private float m_QuarterNote;
-    
+
+        private int currentClipIndex = 0;//index if using to play clips in order
+
         // Use this for initialization
         // Define the lengths of Quarter note and transitions (in and out)
         void Start()
@@ -60,12 +62,22 @@ namespace AudioTools
 			}
         }
     
-        // Play random Transition step audio from the selected steps
+        // Play random Transition step audio from the selected steps 
+        /*
         void PlayTransitionStep()
         {
             int randClip = Random.Range(0, m_TransitionEffects.Length);
             m_TransitionEffectSource.clip = m_TransitionEffects[randClip];
             m_TransitionEffectSource.Play();
+        }*/
+
+        // Play Transition step audio from the selected steps in order of elements
+        void PlayTransitionStep()
+        {
+            int randClip = Random.Range(0, m_TransitionEffects.Length);
+            m_TransitionEffectSource.clip = m_TransitionEffects[currentClipIndex];
+            m_TransitionEffectSource.Play();
+            currentClipIndex++;
         }
     }
 }
