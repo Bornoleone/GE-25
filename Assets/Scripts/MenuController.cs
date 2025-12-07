@@ -14,7 +14,7 @@ public class MenuController : MonoBehaviour
         }
     }
 
-	void ToggleTheTarget()
+	public void ToggleTheTarget()
 	{
         if (!menuParent.activeSelf) //(!hasBeenPaused)
         {
