@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class TriggerWithTag : MonoBehaviour
 {
@@ -27,4 +28,11 @@ public class TriggerWithTag : MonoBehaviour
             onTriggerExitEvent.Invoke();
         }
     }
+    public void Restart()
+    {
+        Time.timeScale = 1f;
+        SceneManager.UnloadSceneAsync(1);
+        SceneManager.LoadScene("MainScene", LoadSceneMode.Additive);
+    }
+    
 }

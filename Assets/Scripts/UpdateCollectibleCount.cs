@@ -6,7 +6,8 @@ public class UpdateCollectibleCount : MonoBehaviour
 {
     int stars = 0;
     public TextMeshProUGUI collectibleCountTextMesh;
-    
+    public TextMeshProUGUI winTextMesh;
+
 
     void Start()
     {
@@ -15,7 +16,10 @@ public class UpdateCollectibleCount : MonoBehaviour
 
     void Update()
     {
-        
+        if(stars == 10)
+        {
+            winTextMesh.text = "Congratulations! You Win!";
+        }
     }
 
     public void UpdateCollCount()
