@@ -48,12 +48,13 @@ MonoBehaviour:
   m_AdditionalLightsPerObjectLimit: 3
   m_AdditionalLightShadowsSupported: 1
   m_AdditionalLightsShadowmapResolution: 4096
-  m_AdditionalLightsShadowResolutionTierLow: 256
-  m_AdditionalLightsShadowResolutionTierMedium: 512
-  m_AdditionalLightsShadowResolutionTierHigh: 1024
+  m_AdditionalLightsShadowResolutionTierLow: 1024
+  m_AdditionalLightsShadowResolutionTierMedium: 2048
+  m_AdditionalLightsShadowResolutionTierHigh: 4096
   m_ReflectionProbeBlending: 1
   m_ReflectionProbeBoxProjection: 1
-  m_ShadowDistance: 70
+  m_ReflectionProbeAtlas: 1
+  m_ShadowDistance: 13.28
   m_ShadowCascadeCount: 2
   m_Cascade2Split: 0.33333334
   m_Cascade3Split: {x: 0.1, y: 0.3}
@@ -65,8 +66,8 @@ MonoBehaviour:
   m_SoftShadowsSupported: 1
   m_ConservativeEnclosingSphere: 0
   m_NumIterationsEnclosingSphere: 64
-  m_SoftShadowQuality: 2
-  m_AdditionalLightsCookieResolution: 2048
+  m_SoftShadowQuality: 3
+  m_AdditionalLightsCookieResolution: 4096
   m_AdditionalLightsCookieFormat: 3
   m_UseSRPBatcher: 1
   m_SupportsDynamicBatching: 0
@@ -78,6 +79,7 @@ MonoBehaviour:
   m_UseAdaptivePerformance: 1
   m_ColorGradingMode: 0
   m_ColorGradingLutSize: 32
+  m_AllowPostProcessAlphaOutput: 0
   m_UseFastSRGBLinearConversion: 0
   m_SupportDataDrivenLensFlare: 1
   m_SupportScreenSpaceLensFlare: 1
@@ -108,6 +110,7 @@ MonoBehaviour:
   m_PrefilterDebugKeywords: 0
   m_PrefilterWriteRenderingLayers: 0
   m_PrefilterHDROutput: 0
+  m_PrefilterAlphaOutput: 0
   m_PrefilterSSAODepthNormals: 0
   m_PrefilterSSAOSourceDepthLow: 0
   m_PrefilterSSAOSourceDepthMedium: 0
@@ -127,6 +130,10 @@ MonoBehaviour:
   m_PrefilterScreenCoord: 0
   m_PrefilterNativeRenderPass: 0
   m_PrefilterUseLegacyLightmaps: 0
+  m_PrefilterBicubicLightmapSampling: 0
+  m_PrefilterReflectionProbeBlending: 0
+  m_PrefilterReflectionProbeBoxProjection: 0
+  m_PrefilterReflectionProbeAtlas: 0
   m_ShaderVariantLogLevel: 0
   m_ShadowCascades: 0
   m_Textures:
