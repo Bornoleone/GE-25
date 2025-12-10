@@ -53,14 +53,14 @@ namespace AudioTools
         }
     
         // If we exit the trigger area, check for a certain tag and fade out correspondingly (from snapshot to another)
-        void OnTriggerExit(Collider other)
+        /*void OnTriggerExit(Collider other)
         {
             if (other.CompareTag("Player"))
 			{
 				PlayTransitionStep();
 				DefaultSnapshot.TransitionTo(m_TransitionOut);
 			}
-        }
+        }*/
     
         // Play random Transition step audio from the selected steps 
         /*
@@ -74,7 +74,7 @@ namespace AudioTools
         // Play Transition step audio from the selected steps in order of elements
         void PlayTransitionStep()
         {
-            int randClip = Random.Range(0, m_TransitionEffects.Length);
+            //int randClip = Random.Range(0, m_TransitionEffects.Length);
             m_TransitionEffectSource.clip = m_TransitionEffects[currentClipIndex];
             m_TransitionEffectSource.Play();
             currentClipIndex++;
