@@ -11,7 +11,7 @@ namespace BitWave_Labs.AnimatedTextReveal
     /// </summary>
     public class AnimateText : MonoBehaviour
     {
-        public bool playerInTriggerArea = false;
+        //public bool playerInTriggerArea = false;
         /// <summary>
         /// Defines which fade operations should be applied to each line.
         /// </summary>
