@@ -674,7 +674,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53bb39439de54284e96355ba90cd0e2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerInTriggerArea: 0
   animatedTextReveal: {fileID: 466546159}
   lines:
   - It is DISCO!
@@ -1417,7 +1416,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53bb39439de54284e96355ba90cd0e2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerInTriggerArea: 0
   animatedTextReveal: {fileID: 466546159}
   lines:
   - Follow the arrow and go to the third room
@@ -2148,7 +2146,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53bb39439de54284e96355ba90cd0e2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerInTriggerArea: 0
   animatedTextReveal: {fileID: 466546159}
   lines:
   - Welcome to my prototype!
@@ -3882,7 +3879,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53bb39439de54284e96355ba90cd0e2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerInTriggerArea: 0
   animatedTextReveal: {fileID: 466546159}
   lines:
   - There is breakable boxes
@@ -4365,7 +4361,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53bb39439de54284e96355ba90cd0e2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerInTriggerArea: 0
   animatedTextReveal: {fileID: 466546159}
   lines:
   - Leave this bowling alley
@@ -7952,7 +7947,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53bb39439de54284e96355ba90cd0e2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerInTriggerArea: 0
   animatedTextReveal: {fileID: 466546159}
   lines:
   - This is a terrain scene, it's a vibe

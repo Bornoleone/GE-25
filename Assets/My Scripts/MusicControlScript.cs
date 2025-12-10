@@ -74,7 +74,7 @@ namespace AudioTools
         // Play Transition step audio from the selected steps in order of elements
         void PlayTransitionStep()
         {
-            //int randClip = Random.Range(0, m_TransitionEffects.Length);
+            int randClip = Random.Range(0, m_TransitionEffects.Length);
             m_TransitionEffectSource.clip = m_TransitionEffects[currentClipIndex];
             m_TransitionEffectSource.Play();
             currentClipIndex++;
