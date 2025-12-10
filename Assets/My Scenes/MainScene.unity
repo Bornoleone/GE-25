@@ -19643,12 +19643,12 @@ GameObject:
   - component: {fileID: 2145171642}
   - component: {fileID: 2145171641}
   - component: {fileID: 2145171640}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: roof_window (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 127
   m_IsActive: 1
 --- !u!4 &2145171639
 Transform:
@@ -19962,6 +19962,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 237276771}
     m_Modifications:
+    - target: {fileID: 640112945461035178, guid: 3b8bf6b3dda335c4d971363656bfcb90, type: 3}
+      propertyPath: IgnoreTag
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 1059058960868761283, guid: 3b8bf6b3dda335c4d971363656bfcb90, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -19997,6 +20001,14 @@ PrefabInstance:
     - target: {fileID: 1958906269502868033, guid: 3b8bf6b3dda335c4d971363656bfcb90, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1996389956015541390, guid: 3b8bf6b3dda335c4d971363656bfcb90, type: 3}
+      propertyPath: m_Depth
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1996389956015541390, guid: 3b8bf6b3dda335c4d971363656bfcb90, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 3007931502020269287, guid: 3b8bf6b3dda335c4d971363656bfcb90, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20078,9 +20090,25 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -2.8079567
       objectReference: {fileID: 0}
+    - target: {fileID: 7824977774563996913, guid: 3b8bf6b3dda335c4d971363656bfcb90, type: 3}
+      propertyPath: m_Depth
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7824977774563996913, guid: 3b8bf6b3dda335c4d971363656bfcb90, type: 3}
+      propertyPath: m_ClearFlags
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7824977774563996913, guid: 3b8bf6b3dda335c4d971363656bfcb90, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 7894581701644173993, guid: 3b8bf6b3dda335c4d971363656bfcb90, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8170365901549126312, guid: 3b8bf6b3dda335c4d971363656bfcb90, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.61
       objectReference: {fileID: 0}
     - target: {fileID: 8711443371048447151, guid: 3b8bf6b3dda335c4d971363656bfcb90, type: 3}
       propertyPath: m_Enabled
@@ -20089,6 +20117,10 @@ PrefabInstance:
     - target: {fileID: 8711443371048447151, guid: 3b8bf6b3dda335c4d971363656bfcb90, type: 3}
       propertyPath: _dialogBehaviour
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9049406865529827175, guid: 3b8bf6b3dda335c4d971363656bfcb90, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8711443371048447151, guid: 3b8bf6b3dda335c4d971363656bfcb90, type: 3}
