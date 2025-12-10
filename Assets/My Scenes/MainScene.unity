@@ -2288,7 +2288,7 @@ GameObject:
   - component: {fileID: 176833485}
   - component: {fileID: 176833484}
   - component: {fileID: 176833483}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: roof_window (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3221,6 +3221,7 @@ Transform:
   - {fileID: 1138120968}
   - {fileID: 1693290423}
   - {fileID: 2051475426}
+  - {fileID: 1970738329}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &339682308 stripped
@@ -5408,7 +5409,7 @@ GameObject:
   - component: {fileID: 526860824}
   - component: {fileID: 526860823}
   - component: {fileID: 526860822}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: roof_window (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5446,7 +5447,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
@@ -7454,7 +7455,7 @@ GameObject:
   - component: {fileID: 757452025}
   - component: {fileID: 757452024}
   - component: {fileID: 757452023}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: roof_window (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8062,6 +8063,37 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1538112818582822819, guid: 3b8bf6b3dda335c4d971363656bfcb90, type: 3}
   m_PrefabInstance: {fileID: 1951273747643341146}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &827815788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 827815789}
+  m_Layer: 0
+  m_Name: Spawner Destroyer Area
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &827815789
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827815788}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1970738329}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &830887967
 GameObject:
   m_ObjectHideFlags: 0
@@ -11695,7 +11727,7 @@ GameObject:
   - component: {fileID: 1316443081}
   - component: {fileID: 1316443080}
   - component: {fileID: 1316443079}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: roof_window (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12537,7 +12569,7 @@ GameObject:
   - component: {fileID: 1450308663}
   - component: {fileID: 1450308662}
   - component: {fileID: 1450308661}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: roof_window (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12575,7 +12607,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
@@ -13320,7 +13352,7 @@ GameObject:
   - component: {fileID: 1549362605}
   - component: {fileID: 1549362604}
   - component: {fileID: 1549362603}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: roof_window (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13358,7 +13390,7 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
@@ -13981,7 +14013,7 @@ Transform:
   m_GameObject: {fileID: 1625932759}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 0.016280001, y: -2.74, z: -32.77}
+  m_LocalPosition: {x: 0.016280001, y: -2.22, z: -32.77}
   m_LocalScale: {x: 15, y: 0.16, z: 15}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17497,6 +17529,74 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5201423646680458952, guid: ea0853a3b2545524481b0c984f27afd1, type: 3}
   m_PrefabInstance: {fileID: 777193870}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1970738328
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1970738329}
+  - component: {fileID: 1970738331}
+  - component: {fileID: 1970738330}
+  m_Layer: 0
+  m_Name: SpawnerDestroyerArea
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1970738329
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970738328}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 9.11, z: 68.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 827815789}
+  m_Father: {fileID: 338633738}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1970738330
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970738328}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 22.75, y: 8.6, z: 31.4}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1970738331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970738328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8923e76d66b4cfc4c891fa31dd1249ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TriggerWithTagForObjectDestroyer
+  tagToCheck: Spawner
 --- !u!1001 &1973275246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18192,7 +18292,7 @@ GameObject:
   - component: {fileID: 2024306574}
   - component: {fileID: 2024306573}
   - component: {fileID: 2024306572}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: roof_window (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19966,6 +20066,10 @@ PrefabInstance:
       propertyPath: IgnoreTag
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 640112945461035178, guid: 3b8bf6b3dda335c4d971363656bfcb90, type: 3}
+      propertyPath: CameraCollisionFilter.m_Bits
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 1059058960868761283, guid: 3b8bf6b3dda335c4d971363656bfcb90, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -20100,7 +20204,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7824977774563996913, guid: 3b8bf6b3dda335c4d971363656bfcb90, type: 3}
       propertyPath: m_CullingMask.m_Bits
-      value: 4294967295
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 7894581701644173993, guid: 3b8bf6b3dda335c4d971363656bfcb90, type: 3}
       propertyPath: m_Enabled

@@ -2,11 +2,11 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
-public class TriggerWithTag : MonoBehaviour
+public class TriggerWithTagForObjectDestroyer : MonoBehaviour
 {
-    public string tagToCheck = "Player";
-    public UnityEvent onTriggerEvent;
-    public UnityEvent onTriggerExitEvent;
+    public string tagToCheck = "Spawner";
+    //public UnityEvent onTriggerEvent;
+    //public UnityEvent onTriggerExitEvent;
 
 
     private void OnTriggerEnter(Collider other)
@@ -14,11 +14,12 @@ public class TriggerWithTag : MonoBehaviour
         if (other.gameObject.CompareTag(tagToCheck))
         {
             Debug.Log($"hit {tagToCheck}");
+            Destroy(other.gameObject);
             // You can do here things you want to trigger
-            onTriggerEvent.Invoke();
+            //onTriggerEvent.Invoke();
         }
     }
-
+    /*
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.CompareTag(tagToCheck))
@@ -33,7 +34,7 @@ public class TriggerWithTag : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.UnloadSceneAsync(1);
         SceneManager.LoadScene("MainScene", LoadSceneMode.Additive);
-    }
+    }*/
     
     
 }
