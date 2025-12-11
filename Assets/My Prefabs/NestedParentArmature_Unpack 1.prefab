@@ -324,7 +324,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8170365901549126312}
   - {fileID: 1958906269502868033}
   - {fileID: 6714948344539979936}
   - {fileID: 3175234468725532437}
@@ -1062,15 +1061,15 @@ RectTransform:
   m_GameObject: {fileID: 3415675114867799175}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 21.9, y: 21.9, z: 21.9}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 997839738328002812}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -75}
-  m_SizeDelta: {x: 150, y: 150}
+  m_AnchoredPosition: {x: 0, y: -57.79}
+  m_SizeDelta: {x: 75, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3648807891774821293
 CanvasRenderer:
@@ -2165,6 +2164,7 @@ Transform:
   - {fileID: 4055519559985466008}
   - {fileID: 5393929528239326298}
   - {fileID: 5261524378519572128}
+  - {fileID: 8170365901549126312}
   m_Father: {fileID: 3007931502020269287}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1912679029890994706
@@ -2808,7 +2808,7 @@ Transform:
   m_GameObject: {fileID: 7434689466222278019}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.20000005, y: 0.44500005, z: -2.8079567}
+  m_LocalPosition: {x: 0.20000005, y: 0.44500005, z: -2.2479577}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2872,7 +2872,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7434689466222278019}
-  m_Enabled: 0
+  m_Enabled: 1
 --- !u!114 &3483817229715024246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3229,7 +3229,7 @@ Transform:
   m_GameObject: {fileID: 8864733288629017338}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.20000005, y: 0.44500005, z: -2.8079567}
+  m_LocalPosition: {x: 0.20000005, y: 0.44500005, z: -2.2479577}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3349,11 +3349,11 @@ Transform:
   m_GameObject: {fileID: 9049406865529827175}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5000087, y: -0.49999133, z: 0.49999133, w: 0.5000087}
-  m_LocalPosition: {x: 0, y: 15.150001, z: -0.74005127}
+  m_LocalPosition: {x: 0, y: 16.079994, z: -0.74005127}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 3007931502020269287}
+  m_Father: {fileID: 3175234468725532437}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: -0.002}
 --- !u!20 &7824977774563996913
 Camera:
@@ -3387,10 +3387,10 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60.000004
+  far clip plane: 100
+  field of view: 51
   orthographic: 0
-  orthographic size: 5
+  orthographic size: 9.9
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -3403,7 +3403,7 @@ Camera:
   m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
+  m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
 --- !u!81 &3634702905232085612
@@ -3413,7 +3413,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9049406865529827175}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!114 &4146295245744251762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3427,8 +3427,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
   m_RenderShadows: 0
-  m_RequiresDepthTextureOption: 2
-  m_RequiresOpaqueTextureOption: 2
+  m_RequiresDepthTextureOption: 0
+  m_RequiresOpaqueTextureOption: 0
   m_CameraType: 0
   m_Cameras: []
   m_RendererIndex: -1

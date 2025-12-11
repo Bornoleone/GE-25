@@ -13,7 +13,7 @@ public class TriggerWithTagForObjectDestroyer : MonoBehaviour
     {
         if (other.gameObject.CompareTag(tagToCheck))
         {
-            Debug.Log($"hit {tagToCheck}");
+            //Debug.Log($"hit {tagToCheck}");
             Destroy(other.gameObject);
             // You can do here things you want to trigger
             //onTriggerEvent.Invoke();
